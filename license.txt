@@ -1,0 +1,2 @@
+DietApp is a custom made Xamarin Application throught visual studio 2019. The App does not contain any third party referances.So the apllication doest not need any license. Hence license not applicable.
+
