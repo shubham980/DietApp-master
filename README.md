@@ -6,6 +6,19 @@ ASSIGNMENT 1:SIT313 - Developing Client-Server Web Applications
 
 DESCRIPTION:
 This app is for all Gym fanatics who wants to get lean and in shape with a better knowledge about the exercises and diet. This App enables the user to add his/her events they want to do on notes app and when they achieve that event they can delete them. DietApp is a good App to learn and implement at the same time and get better results.
+
+LINK USED:
+
+https://www.youtube.com/results?search_query=introduction+to+xamarin
+
+https://visualstudio.microsoft.com/xamarin/
+
+https://docs.microsoft.com/en-us/xamarin/android/get-started/
+
+https://docs.microsoft.com/en-us/xamarin/android/app-fundamentals/
+
+https://docs.microsoft.com/en-us/xamarin/android/
+
 FEATURE DISCRIPTION:
 •	Slider menu:
 
@@ -13,6 +26,7 @@ FEATURE DISCRIPTION:
 •	Item.cs
 •	ItemsPage.xaml.cs
 •	BaseViewModel.cs
+
 
 •	Add PDF’s + PDF’s description:
 
@@ -24,3 +38,7 @@ FEATURE DISCRIPTION:
 •	Note.cs
 •	NoteEntryPage.xaml.cs
 •	NotesPage.xaml.cs
+
+
+
+
