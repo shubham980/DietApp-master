@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             xmlns:local="clr-namespace:DietApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="DietApp.Views.ItemDetailPage"
+             Title="Instructions">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <syncfusion:Toolbar x:Key="ToolbarSettings">
+                <syncfusion:Toolbar.Enabled>false
+                </syncfusion:Toolbar.Enabled>
+            </syncfusion:Toolbar>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    
+
+    <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" Toolbar = "{StaticResource ToolbarSettings}"/>
+
+    
+
+</ContentPage>
